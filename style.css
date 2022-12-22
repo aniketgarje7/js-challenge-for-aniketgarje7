@@ -1,0 +1,82 @@
+.container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: -30px;
+   background-color: black;
+   color: white;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.company{
+  padding-left: 10px;
+  margin-top: -28px;  
+}
+#address{
+    width: 250px;
+}
+.div{
+margin: 5px;
+padding: 7px;
+
+}
+input{
+    padding: 5px;
+   border-radius: 5px;   
+   background-color: rgb(126, 109, 109);
+   color: rgb(253, 251, 251);
+
+}
+input:focus{
+    outline: none;
+    font-size: 16px;
+}
+#button{
+ font-size: larger;
+ background-color: rgb(134, 86, 86);
+ color: white;
+ padding: 8px;
+border-radius: 7px;
+cursor: pointer;
+}
+.userH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(193, 218, 240);
+}
+.tableH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 121, 121);
+}
+.container2{
+    background-color:  rgb(185, 173, 173);
+    color: rgb(10, 10, 10);
+    
+}
+table tbody tr td{
+    
+    font-size: 15px;
+    
+    padding: 20px;
+}
+table thead tr th{
+    padding-top: 10px;
+}
