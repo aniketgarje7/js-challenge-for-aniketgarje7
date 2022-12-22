@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href="style.css"/>
+</head>
+
+<body>
+    <div class="userH"> <h1 >Users</h1></div>
+   
+    
+    <div class="container">
+        <form action="/users.html" method="get" id="form">
+            <div class="flex name">
+            <div id="0" class="div firstName">
+                <label for="firstName">FirstName</label>
+                <input type="text" name="name" id="firstName" autocomplete="off" />
+                <p></p>
+            </div>
+            <div id="1" class="div lastName">
+                <label for="lastName">LastName</label>
+                <input type="text" id="lastName" autocomplete="off" />
+                <p></p>
+            </div>
+        </div>
+        <div class="= flex emailAndUserName">
+            <div id="2" class="div userName">
+                <label for="userName"> Username</label>
+                <input type="text" id="userName" autocomplete="off" />
+                <p></p>
+            </div>
+            <div id="3" class="div email">
+                <label for="email">Email</label>
+                <input type="'email" id="email" autocomplete="off" />
+                <p></p>
+            </div>
+        </div>
+        <div class=" flex addressAndPhone">
+            <div id="4" class="div address">
+                <label for="address">Address</label>
+                <input type="text" id="address" autocomplete="off" />
+                <p></p>
+            </div>
+            <div id="5" class="div phone">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" maxlength="12" autocomplete="off">
+                <p ></p>
+            </div>
+        </div>
+        <div class="flex websiteAndCompanyName">
+            <div id="6" class="div website">
+                <label for="website">Website</label>
+                <input type="text" id="website" autocomplete="off" />
+                <p></p>
+            </div>
+            <div id="7" class="div company">
+                <label for="companyName">Company Name</label>
+                <input type="text" id="companyName" autocomplete="off" />
+            </div>
+        </div>
+           <div class="submitButton">       
+            <button type="submit" id="button">submit</button>
+        </div>
+        </form>
+    </div>
+   <div class="tableH">
+    <h1>Table</h1>
+   </div>
+    <div class="container2">
+        <table>
+            <thead>
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                    <th>Company name</th>
+                </tr>
+            </thead>
+            <tbody id="append"></tbody>
+        </table>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
