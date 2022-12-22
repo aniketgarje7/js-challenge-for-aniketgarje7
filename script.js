@@ -161,7 +161,7 @@ const getApiData = async () => {
     }
     catch (e) {
         console.log(e)
-        alert('something went wrong')
+        alert('something went wrong while fetching the users')
     }
 
 }
